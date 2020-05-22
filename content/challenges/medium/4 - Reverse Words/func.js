@@ -4,4 +4,13 @@
 // Notes:
 //   - You can expect a valid string to be provided for each test case.
 module.exports = (str) => {
+  var reverseStr = "";
+  if (str.length < 5){
+    return str;
+  }
+ for (var i = str.length - 1; i >= 0; i--){
+  let curLetter = str[i];
+  reverseStr = reverseStr + curLetter
+ }
+return reverseStr
 }

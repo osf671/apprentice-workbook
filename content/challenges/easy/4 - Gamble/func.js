@@ -5,5 +5,5 @@ module.exports = (probabilityOfWinning, prize, costOfPlaying) => {
     if (probabilityOfWinning * prize > costOfPlaying){
         return true
     }
-    return false 
+       return false 
 };

@@ -3,4 +3,8 @@
 // Notes: 
 //   - You can expect a valid string for each test case.
 module.exports = (str) => {
+    ;
+    for (i = 0; i < str.length; i++) {
+    }
+    
 }
